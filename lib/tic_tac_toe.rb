@@ -53,9 +53,9 @@ def turn_count(board = @board)
     else
       counter += 1
     end
-  end #if statement
+  end
   counter
-end #turn_count method
+end
 def current_player
       if turn_count(board = @board)%2==0
       return "X"
