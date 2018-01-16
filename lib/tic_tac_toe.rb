@@ -73,9 +73,9 @@ def turn
         display_board
       elsif
         turn
-      end #if statement
-  end #turn method
-def won? #FIX HERE
+      end
+  end
+def won?
   board = @board
   WIN_COMBINATIONS.detect do |index|
   board[index[0]] == board[index[1]] && board[index[1]] == board[index[2]] && position_taken?(board,index[0])
