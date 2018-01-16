@@ -80,7 +80,7 @@ def won?
   WIN_COMBINATIONS.detect do |index|
   board[index[0]] == board[index[1]] && board[index[1]] == board[index[2]] && position_taken?(board,index[0])
   end
-end #won method
+end
 def full?
   board = @board
   if board[0] != " " && board[1] != " " && board[2] != " " && board[3] != " " && board[4] != " " && board[5] != " " && board[5] != " " && board[6] != " " && board[7] != " " && board[8] != " "
