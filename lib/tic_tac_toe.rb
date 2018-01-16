@@ -61,8 +61,8 @@ def current_player
       return "X"
     else turn_count(board = @board)%2==1
       return "O"
-      end #if statement
-end # current_player method
+      end
+end
 def turn
     puts "Please enter 1-9:"
     user_input = gets
