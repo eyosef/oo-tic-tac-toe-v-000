@@ -87,8 +87,8 @@ def full?
  true
 else
   false
-end #if statement
-end #full method
+end
+end
 def draw?
   board = @board
   if won? != nil
