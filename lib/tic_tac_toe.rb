@@ -106,8 +106,8 @@ def over?(board = @board)
         true
       else
         false
-      end #if statement
-end #over method
+      end
+end
 def winner(board = @board)
   board = @board
   WIN_COMBINATIONS.detect do |index|
