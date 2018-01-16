@@ -120,9 +120,9 @@ def winner(board = @board)
 end
 def play
        while over?(board = @board) == false
-           turn #plays the 1st turn of game/checks of game is over after every turn/asks for player input
-       end #while loop
-       draw? #tests if there is a draw after every turn
+           turn
+       end
+       draw?
        if won? == false
            turn(board)
          elsif won? == true
