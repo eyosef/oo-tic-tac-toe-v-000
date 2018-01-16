@@ -115,9 +115,9 @@ def winner(board = @board)
       return "X"
     elsif board[index[0]] == board[index[1]] && board[index[1]] == board[index[2]] && board[index[0]] == "O" && position_taken?(board,index[0])
       return "O"
-    end #if statement
-  end #win combo
-end #winner method
+    end
+  end
+end
 def play
        while over?(board = @board) == false
            turn #plays the 1st turn of game/checks of game is over after every turn/asks for player input
